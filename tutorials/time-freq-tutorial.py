@@ -13,7 +13,8 @@ from autoreject import AutoReject
 # Sampling frequency: 1024 Hz
 # Electrode montage: 10-20 international system
 
-path = 'test-data/Sets/'
+# Set the path to the dataxs
+path = 'test-data/'
 raw = mne.io.read_raw_eeglab(path + '10_2342019_2.set', preload=True)
 
 # Plot the raw data
